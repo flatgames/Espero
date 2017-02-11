@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Espero\Common.h" />
+    <ClInclude Include="Espero\Config.h" />
+    <ClInclude Include="Espero\Espero.h" />
+    <ClInclude Include="Espero\IClassName.h" />
+    <ClInclude Include="Espero\World.h" />
+    <ClInclude Include="Espero\Component\Aspect.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Component\Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Component\ComponentMapper.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Component\ComponentType.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Entity\Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Entity\EntityObserver.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Entity\EntitySystem.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Manager\ComponentManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Manager\EntityManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Manager\Manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\Bag.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\BitSet.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\IdentifierPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\Map.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\Pool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\Queue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\Set.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\SpritePool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\Utils\Vector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\System\EntityProcessingSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\System\IntervalEntityProcessingSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Espero\System\IntervalEntitySystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Espero\World.cpp" />
+    <ClCompile Include="Espero\Component\Aspect.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Component\ComponentType.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Entity\Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Entity\EntitySystem.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Manager\ComponentManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Manager\EntityManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Utils\BitSet.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Utils\IdentifierPool.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\Utils\SpritePool.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\System\EntityProcessingSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\System\IntervalEntityProcessingSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Espero\System\IntervalEntitySystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{b2303130-7934-4ec5-aa20-b5b896b90542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{86eda9cd-3c36-4fb5-b838-03e7b79fc455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{fa94a7da-c198-48ac-a7ff-8b6c5f3364fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{94be114b-c77e-4257-af83-20b3d9981512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{7743751e-22d7-419c-b041-30a4910c7c02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
